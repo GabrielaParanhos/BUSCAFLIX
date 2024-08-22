@@ -1,33 +1,4 @@
-body{
-    color: yellow;
-    background: black;
-    margin: 0px;
-    font-family: "New Amsterdam", sans-serif;
-    margin-bottom: 100px;
-}
-
-header{
-    border-bottom: solid 2px white;
-
-    padding: 20px;
-    font-size: 32px;
-    color: rgb(202, 148, 31);
-}
-
-.chamada{
-    background: rgb(227, 180, 180);
-    padding-bottom: 80px;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-}
-
-.chamada-texto{
-    margin-right: 5%;
-}
-
-.categoria-videos{
-    display: flex;
+display: flex;
     overflow-x: auto;
     gap: 10px;
 }
