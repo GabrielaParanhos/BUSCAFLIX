@@ -2,16 +2,19 @@ body{
     color: yellow;
     background: black;
     margin: 0px;
+    font-family: "New Amsterdam", sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
     border-bottom: solid 2px white;
+
     padding: 20px;
     font-size: 32px;
     color: rgb(202, 148, 31);
 }
 
-section{
+.chamada{
     background: rgb(227, 180, 180);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -21,4 +24,27 @@ section{
 
 .chamada-texto{
     margin-right: 5%;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid blue;
+}
+
+.categoria h2{
+    color: rgb(202, 148, 31);
 }
